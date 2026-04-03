@@ -1,7 +1,9 @@
 # ── Stage 1: build native bindings ────────────────────────────────────────────
 FROM dhi.io/node:25-debian13-dev AS builder
 
-RUN apk add --no-cache python3 make g++
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 make g++ \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
