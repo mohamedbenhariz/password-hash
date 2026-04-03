@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/mohamedbenhariz/password-hash/compare/v1.0.0...v1.0.1) (2026-04-03)
+
+
+### Bug Fixes
+
+* simplify Docker Hub login condition in workflow ([a4e63ec](https://github.com/mohamedbenhariz/password-hash/commit/a4e63ec5a3dca4f318c5a0eddcd6f1f931271298))
+
 # 1.0.0 (2026-04-03)
 
 
