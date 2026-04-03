@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/mohamedbenhariz/password-hash/compare/v1.0.2...v1.1.0) (2026-04-03)
+
+
+### Bug Fixes
+
+* update Dockerfile to use dhi.io/node:25-debian13-dev for consistency ([1144a91](https://github.com/mohamedbenhariz/password-hash/commit/1144a91bcaa19ae314e90a78e0aa61a444760ad2))
+
+
+### Features
+
+* update Dockerfile to use apt-get for package installation ([68eee79](https://github.com/mohamedbenhariz/password-hash/commit/68eee79d3b91a88374aa1f6c019b2a591117b56c))
+
 ## [1.0.2](https://github.com/mohamedbenhariz/password-hash/compare/v1.0.1...v1.0.2) (2026-04-03)
 
 
