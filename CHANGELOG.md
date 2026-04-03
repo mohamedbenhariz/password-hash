@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/mohamedbenhariz/password-hash/compare/v1.0.1...v1.0.2) (2026-04-03)
+
+
+### Bug Fixes
+
+* update Docker workflow for semantic release and improve Docker Hub login conditions ([9c18655](https://github.com/mohamedbenhariz/password-hash/commit/9c18655da04357175c12f59adfd9cea46700baef))
+
 ## [1.0.1](https://github.com/mohamedbenhariz/password-hash/compare/v1.0.0...v1.0.1) (2026-04-03)
 
 
