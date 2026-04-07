@@ -3,6 +3,23 @@
   "functions": {
     "api/hash.js": {
       "maxDuration": 10
+    },
+    "api/index.js": {
+      "maxDuration": 5
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/api/hash",
+      "dest": "/api/hash.js"
+    },
+    {
+      "src": "/api",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/",
+      "dest": "/api/index.js"
+    }
+  ]
 }
