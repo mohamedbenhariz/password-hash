@@ -1,0 +1,8 @@
+/index.js
+Dockerfile
+.dockerignore
+.github
+CONTRIBUTING.md
+CLAUDE.md
+.releaserc.json
+capture-ecran
