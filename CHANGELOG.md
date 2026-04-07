@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/mohamedbenhariz/password-hash/compare/v1.2.0...v1.3.0) (2026-04-07)
+
+
+### Bug Fixes
+
+* correct formatting in .vercelignore for index.js ([3f805c3](https://github.com/mohamedbenhariz/password-hash/commit/3f805c3d377396fdcb8db84be8725803a78ab907))
+
+
+### Features
+
+* add password hashing API and Vercel configuration ([c849633](https://github.com/mohamedbenhariz/password-hash/commit/c849633f2b30096ec66b739e82e12d161502a238))
+
 # [1.2.0](https://github.com/mohamedbenhariz/password-hash/compare/v1.1.0...v1.2.0) (2026-04-07)
 
 
