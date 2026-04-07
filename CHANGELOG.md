@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mohamedbenhariz/password-hash/compare/v1.1.0...v1.2.0) (2026-04-07)
+
+
+### Features
+
+* add password hashing API and Vercel configuration ([c74ff46](https://github.com/mohamedbenhariz/password-hash/commit/c74ff46241a17da88db1372c32567c8c65239633))
+
 # [1.1.0](https://github.com/mohamedbenhariz/password-hash/compare/v1.0.2...v1.1.0) (2026-04-03)
 
 
