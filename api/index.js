@@ -1,7 +1,8 @@
+var version = require("../package.json").version;
 module.exports = (req, res) => {
   res.status(200).json({
     name: "password-hash API",
-    version: "1.0.0",
+    version: version,
     description: "Hash passwords using Argon2id",
     endpoints: {
       "POST /api/hash": {
@@ -11,7 +12,7 @@ module.exports = (req, res) => {
       },
     },
     example: {
-      curl: 'curl -X POST https://<your-domain>/api/hash -H "Content-Type: application/json" -d \'{"password": "mypassword"}\'',
+      curl: 'curl -X POST https://password-hash-live.vercel.app/api/hash -H "Content-Type: application/json" -d \'{"password": "mypassword"}\'',
     },
   });
 };
